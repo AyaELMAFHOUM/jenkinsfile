@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building is terminited...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing is terminited...'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying is terminited...'
+            }
+        }
+    }
+}
